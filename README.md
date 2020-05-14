@@ -2,9 +2,9 @@
 Natural Language Processing modules
 
 <ul>
-<li><b>NLP </b></li>
+<li><b>NLP:  </b></li>
 <ul>
-<li><a href="https://github.com/stratosm/PyTorch/blob/master/GPU_available.ipynb"></a></li>
+<li><a href="https://github.com/stratosm/NLP_modules/blob/master/NLP%20Modules%20-%20Ratio%20of%20Class%20Labels.ipynb">Frequency of classes</a></li>
 </ul>
 <li><b>NLP: Exploration Data Analysis modules</b></li>
 <ul>
