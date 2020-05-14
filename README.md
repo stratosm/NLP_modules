@@ -18,6 +18,7 @@ Natural Language Processing modules
 </ul>
 <ul>
 <li><b>NLP: Basic Statistics  </b></li>
+</ul>
 <ul>
 <li><a href="https://github.com/stratosm/NLP_modules/blob/master/NLP%20Modules%20-%20Ratio%20of%20Class%20Labels.ipynb">Frequency of classes</a></li>
 </ul>
