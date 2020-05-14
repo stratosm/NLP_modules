@@ -11,11 +11,16 @@ Natural Language Processing modules
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensors.ipynb">Plot: Class Labels Frequency (vertical/horizontal)</a></li>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensors.ipynb">Plot: Length of Sentences</a></li>
 </ul>
+<li><b>NLP: Tensor creation</b></li>
+<ul>
+<li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensor%20Creation%20Random%20Initialization.ipynb">Sentence Indexing</a></li>
+<li><a href="https://github.com/stratosm/PyTorch/blob/master/Special%20constructors.ipynb">Sentence Padding</a></li>
+</ul>
 <li><b>NLP: Vocabulary Creation</b></li>
 <ul>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensor%20Creation%20Random%20Initialization.ipynb">Random tensor initialization</a></li>
 </ul>
- <li><b>NLP: Tensor creation</b></li>
+<li><b>NLP: Tensor creation</b></li>
 <ul>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensor%20Creation%20Random%20Initialization.ipynb">Sentence Indexing</a></li>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/Special%20constructors.ipynb">Sentence Padding</a></li>
