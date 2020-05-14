@@ -6,7 +6,7 @@ Natural Language Processing modules
 <ul>
 <li><a href="https://github.com/stratosm/NLP_modules/blob/master/NLP%20Modules%20-%20Ratio%20of%20Class%20Labels.ipynb">Frequency of classes</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a> </li>
 </ul>
-<li><b>NLP: Exploration Data Analysis modules</b></li>
+<li><b>NLP: Exploration Data Analysis</b></li>
 <ul>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensors.ipynb">Plot: Class Labels Frequency</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensors.ipynb">Plot: Length of Sentences</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
