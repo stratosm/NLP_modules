@@ -8,7 +8,7 @@ Natural Language Processing modules
 </ul>
 <li><b>NLP: Exploration Data Analysis modules</b></li>
 <ul>
-<li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensors.ipynb">Plot: Class Labels Frequency (vertical/horizontal)</a></li>
+<li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensors.ipynb">Plot: Class Labels Frequency</a></li>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensors.ipynb">Plot: Length of Sentences</a></li>
 </ul>
 <li><b>NLP: Text Preprocessing</b></li>
