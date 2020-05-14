@@ -16,9 +16,4 @@ Natural Language Processing modules
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensor%20Creation%20Random%20Initialization.ipynb">Random tensor initialization</a></li>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/Special%20constructors.ipynb">Special constructors</a></li>
 </ul>
-<ul>
-<li><b>NLP: Basic Statistics  </b></li>
-</ul>
-<ul>
-<li><a href="https://github.com/stratosm/NLP_modules/blob/master/NLP%20Modules%20-%20Ratio%20of%20Class%20Labels.ipynb">Frequency of classes</a></li>
-</ul>
+
