@@ -4,7 +4,7 @@ Natural Language Processing modules
 <ul>
 <li><b>NLP: Basic Statistics  </b></li>
 <ul>
-<li><a href="https://github.com/stratosm/NLP_modules/blob/master/NLP%20Modules%20-%20Ratio%20of%20Class%20Labels.ipynb">Frequency of classes</a>|<li><a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">class_ratio.py</a> </li>
+<li><a href="https://github.com/stratosm/NLP_modules/blob/master/NLP%20Modules%20-%20Ratio%20of%20Class%20Labels.ipynb">Frequency of classes</a>|<a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">class_ratio.py</a> </li>
 </ul>
 <li><b>NLP: Exploration Data Analysis modules</b></li>
 <ul>
