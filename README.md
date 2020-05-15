@@ -2,9 +2,9 @@
 Natural Language Processing modules
 
 <ul>
-<li><b>NLP: Cleaning rows from NaNs </b></li>
+<li><b>NLP: Cleaning rows</b></li>
 <ul>
-<li><a href="https://github.com/stratosm/NLP_modules/blob/master/NLP%20Modules%20-%20Ratio%20of%20Class%20Labels.ipynb">Frequency of classes</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a> </li>
+<li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20modules%20clean%20rows.ipynb">Cleaning rows with NaNs and empty fields</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/clean_rows.py">(clean_rows.py)</a> </li>
 </ul>
 <li><b>NLP: Basic Statistics  </b></li>
 <ul>
