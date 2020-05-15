@@ -1,6 +1,7 @@
 # NLP modules
 Natural Language Processing modules
 
+
 <ul>
 <li><b>NLP: Cleaning rows</b></li>
 <ul>
@@ -12,7 +13,7 @@ Natural Language Processing modules
 </ul>
 <li><b>NLP: Exploration Data Analysis</b></li>
 <ul>
-<li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20modules%20EDA%20class%20plot.ipynb">Plot: Class Labels Frequency</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
+<li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20modules%20EDA%20class%20plot.ipynb">Plot: Class Labels Frequency</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20Modules%20Vertical%20class%20labels.ipynb">Plot: Class Labels Frequency (Vertical)</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensors.ipynb">Plot: Length of Sentences</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
 </ul>
 <li><b>NLP: Text Preprocessing</b></li>
