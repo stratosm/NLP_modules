@@ -50,7 +50,7 @@ def plot_v(train, test, tag, **kwargs):
 		#print(key)
 		if key == 'hor':
 			hor = value
-		else:
+		elif key == 'ver': 
 			ver = value
 
 ###############################################
@@ -59,25 +59,24 @@ def plot_v(train, test, tag, **kwargs):
 # hor_dist: horizontal distance
 ###############################################
 
-	per_dist, hor_dist = 1.15, 5000
+	per_dist, ver_dist = 1.15, 1000
 
 	for key, value in kwargs.items():  
-		#print ("%s == %s" %(key, value))
-		#print(key)
+
 		if key == 'per_dist':
 			per_dist = value
-		elif key == 'hor_dist':
-			hor_dist = value
+		elif key == 'ver_dist':
+			ver_dist = value
 
 ###############################################
 
 	df_train = ratio_(train, tag)
 	df_test = ratio_(test, tag)
 	
-	total1 = df_train['total'].sum()
-	max1 = df_train['total'].max()
-	total2 = df_test['total'].sum()
-	max2 = df_test['total'].max()
+	total1 = df_train['Total'].sum()
+	max1 = df_train['Total'].max()
+	total2 = df_test['Total'].sum()
+	max2 = df_test['Total'].max()
 	total_sum = total1 + total2
 
 
@@ -104,16 +103,16 @@ def plot_v(train, test, tag, **kwargs):
 	ax1.set_ylabel('Number of Training Instances', size=14, fontweight='bold')
 
 	# Custom X axis-ticks
-	ax1.set_xticklabels(df_train['class'], size = 10) 
-	#ax1.set_xticks(df_train['class'])
+	ax1.set_xticklabels(df_train['Class'], size = 10) 
+	ax1.set_xticks(df_train['Class'])
 
 	# Custom Y axis-ticks
-	t_max = df_train['total'].max()
+	t_max = df_train['Total'].max()
 	step = t_max/8
 	_, step = math.modf(step)
 	step = int(step)
 	
-	max1 = df_train['total'].max()+(2*step)
+	max1 = df_train['Total'].max()+(2*step)
 	y_ticks = np.arange(0, max1+step, step)
 	
 	yrange = (y_ticks[0], y_ticks[-1])
@@ -122,7 +121,7 @@ def plot_v(train, test, tag, **kwargs):
 	ax1.set_yticks(y_ticks)
 	 
 	# Create bar
-	ax1.bar(df_train['class'], df_train['total'], color='dodgerblue', edgecolor='black')
+	ax1.bar(df_train['Class'], df_train['Total'], color='dodgerblue', edgecolor='black')
 
 	# Annotate
 	rects = ax1.patches
@@ -132,7 +131,7 @@ def plot_v(train, test, tag, **kwargs):
 		percentage = rect.get_height()/total1 # estimate the percentage
 		percentage = '{:.1f}%'.format(100 * percentage)  
 		height = rect.get_height()
-		ax1.text(rect.get_x() + rect.get_width() / 2, per_dist*rect.get_height()+hor_dist, '%s\n(%s)'% (height, percentage),
+		ax1.text(rect.get_x() + rect.get_width() / 2, (per_dist*rect.get_height())+ver_dist, '%s\n(%s)'% (height, percentage),
 				 ha='center', va='bottom', color = 'black', size = 12)
 		
 	#############################
@@ -147,15 +146,15 @@ def plot_v(train, test, tag, **kwargs):
 	ax2.set_xlabel('Class', size=14, fontweight='bold')
 
 	# Custom X axis-ticks
-	ax2.set_xticklabels(df_test['class'], size = 10) 
-	#ax2.set_xticks(df_test['class'])
+	ax2.set_xticklabels(df_test['Class'], size = 10) 
+	ax2.set_xticks(df_test['Class'])
 
 	# Custom Y axis-ticks
-	t_max = df_train['total'].max()
+	t_max = df_train['Total'].max()
 	step = t_max/8
 	_, step = math.modf(step)
 	step = int(step)
-	max1 = df_train['total'].max()+(2*step)
+	max1 = df_train['Total'].max()+(2*step)
 	y_ticks2 = np.arange(0, max1+step, step)
 	yrange = (y_ticks2[0], y_ticks2[-1])
 	ax2.set_ylim(yrange)
@@ -163,7 +162,7 @@ def plot_v(train, test, tag, **kwargs):
 	ax2.set_yticks(y_ticks2)
 	 
 	# Create bar
-	ax2.bar(df_test['class'], df_test['total'], color='dodgerblue', edgecolor='black')
+	ax2.bar(df_test['Class'], df_test['Total'], color='dodgerblue', edgecolor='black')
 
 	# Annotation
 	rects2 = ax2.patches
@@ -172,7 +171,7 @@ def plot_v(train, test, tag, **kwargs):
 		percentage2 = rect2.get_height()/total2 # estimate the percentage
 		percentage2 = '{:.1f}%'.format(100 * percentage2)  
 		height2 = rect2.get_height()
-		ax2.text(rect2.get_x() + rect2.get_width() / 2, per_dist*rect2.get_height() + hor_dist, '%s\n(%s)'% (height2, percentage2),
+		ax2.text(rect2.get_x() + rect2.get_width() / 2, (per_dist*rect2.get_height()) + ver_dist, '%s\n(%s)'% (height2, percentage2),
 				 ha='center', va='bottom', color = 'black', size = 11)  
 	sum_total = total1+total2 
 	
@@ -264,10 +263,10 @@ def plot_h(train, test, tag, **kwargs):
 	df_test = ratio_(test, tag)
 
 	
-	total1 = df_train['total'].sum()
-	max1 = df_train['total'].max()
-	total2 = df_test['total'].sum()
-	max2 = df_test['total'].max()
+	total1 = df_train['Total'].sum()
+	max1 = df_train['Total'].max()
+	total2 = df_test['Total'].sum()
+	max2 = df_test['Total'].max()
 	total_sum = total1 + total2
 	
 	###############################################
@@ -292,7 +291,7 @@ def plot_h(train, test, tag, **kwargs):
 	ax1.set_ylabel('Class', size=15, fontweight='bold')
 
 	# Custom Y axis-ticks
-	ax1.set_yticklabels(df_train['class'], size = 12) 
+	ax1.set_yticklabels(df_train['Class'], size = 12) 
 
 	# Custom X axis-ticks
 	stepx = max1/6
@@ -310,7 +309,7 @@ def plot_h(train, test, tag, **kwargs):
 	ax1.set_axisbelow(True)
 
 	# Create bar
-	ax1.barh(df_train['class'], df_train['total'], edgecolor='black')
+	ax1.barh(df_train['Class'], df_train['Total'], edgecolor='black')
 	ax1.invert_yaxis()
 
 	rects = ax1.patches
@@ -334,7 +333,7 @@ def plot_h(train, test, tag, **kwargs):
 	#ax2.set_ylabel('Class', size=16, fontweight='bold')
  
 	# Custom Y axis-ticks
-	ax2.set_yticklabels(df_test['class'], size = 12) 
+	ax2.set_yticklabels(df_test['Class'], size = 12) 
 
 	# Custom X axis-ticks
 	stepx2 = max1/6
@@ -353,7 +352,7 @@ def plot_h(train, test, tag, **kwargs):
 	ax2.set_axisbelow(True)
 
 	# Create bar
-	ax2.barh(df_test['class'], df_test['total'], edgecolor='black')
+	ax2.barh(df_test['Class'], df_test['Total'], edgecolor='black')
 	ax2.invert_yaxis()
 	
 	# Annotate
