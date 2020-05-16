@@ -17,11 +17,11 @@ def clean_text(x, **kwargs):
 
 		Usage
 		-----
-		e.g df_sents, x, y = sents_len(df, 'Sentence')
+		e.g x = clean_text(x)
 
 		Returns
 		-------
-		A cleaned text sentence
+		A cleaned sentence
 
 	"""
 
