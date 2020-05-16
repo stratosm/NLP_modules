@@ -6,16 +6,17 @@ def most_common_words(df, sentence, cl, label, **kwargs):
     """
         Description (Vertical bars Plot)
         ------------
-        Print the most common words between the sentnces for the given class
+        Print the most common words between the sentences for the given class
         in a dataframe
         
 
         Arguments
         ---------
-        df: train dataset
-        sentence: test dataset
-        cl: the name of the class column
-        label:
+        df: the dataset
+        sentence: the column of the text sentences
+        cl: the column of the classes
+        label: the name of the class
+        top (optional)
         
 
         Usage
