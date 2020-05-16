@@ -29,6 +29,6 @@ Natural Language Processing modules
 <li><b>NLP: Sentences Indexing and Padding</b></li>
 <ul>
 <li><a href="...">Sentence Indexing</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/word2idx.py">(word2idx.py)</a></li>
-<li><a href="https://github.com/stratosm/PyTorch/blob/master/Special%20constructors.ipynb">Sentence Padding</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
+<li><a href="https://github.com/stratosm/PyTorch/blob/master/Special%20constructors.ipynb">Sentence Padding</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/padding.py">(padding.py)</a></li>
 </ul>
 
