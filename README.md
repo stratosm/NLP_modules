@@ -14,7 +14,7 @@ Natural Language Processing modules
 <li><b>NLP: Exploration Data Analysis</b></li>
 <ul>
 <li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20modules%20EDA%20class%20plot.ipynb">Plot: Class Labels Frequency (Horizontal) </a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20Modules%20Vertical%20class%20labels.ipynb">Plot: Class Labels Frequency (Vertical)</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/class_plot.py">(class_ratio.py)</a></li>
-<li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/Sentence%20Lengths.ipynb">Plot: Length of Sentences</a> | <a href=" ">(class_ratio.py)</a></li>
+<li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/Sentence%20Lengths.ipynb">Plot: Length of Sentences</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/sents_plot.py">(sents_plot.py)</a></li>
 </ul>
 <li><b>NLP: Text Preprocessing</b></li>
 <ul>
