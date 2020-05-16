@@ -2,7 +2,27 @@
 
 import numpy as np
 
-def creating_matrix(glove_dir, embed_size, words ):
+def creating_matrix(glove_dir, embed_size, words):
+	"""
+		Description 
+		------------
+		Load pretrained word vectors and create the corresponding embedding matrix
+		
+		Arguments
+		---------
+		glove_dir: the pretrained vectors file 
+		embed_size: the dimension
+		words: the vocabulary
+
+		Usage
+		-----
+		e.g embedding_matrix = creating_matrix(glove_dir, embed_size, words)
+
+		Returns
+		-------
+		the pretrained matrix
+	"""
+
 	print('------------------------------------------------------------')
 	print('Loading',glove_dir,'file ...')
 	
