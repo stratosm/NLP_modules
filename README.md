@@ -28,12 +28,12 @@ Natural Language Processing modules
 </ul>
 <li><b>NLP: Sentences Indexing and Padding</b></li>
 <ul>
-<li><a href="...">Sentence Indexing</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/word2idx.py">(word2idx.py)</a></li>
-<li><a href="https://github.com/stratosm/PyTorch/blob/master/Special%20constructors.ipynb">Sentence Padding</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/padding.py">(padding.py)</a></li>
+<li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20modules%20Vocabulary-Indexing-Padding-Pretrained%20Embeddings.ipynb">Sentence Indexing</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/word2idx.py">(word2idx.py)</a></li>
+<li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20modules%20Vocabulary-Indexing-Padding-Pretrained%20Embeddings.ipynb">Sentence Padding</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/padding.py">(padding.py)</a></li>
 </ul>
 <li><b>NLP: Pre-trained word embeddings</b></li>
 <ul>
-<li><a href="...">Loading and creating embedding matrix</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/pretrained_vectors.py">(pretrained_vectors.py)</a></li>
+<li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20modules%20Vocabulary-Indexing-Padding-Pretrained%20Embeddings.ipynb">Loading and creating embedding matrix</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/pretrained_vectors.py">(pretrained_vectors.py)</a></li>
 </ul>
 
 
