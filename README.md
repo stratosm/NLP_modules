@@ -31,4 +31,8 @@ Natural Language Processing modules
 <li><a href="...">Sentence Indexing</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/word2idx.py">(word2idx.py)</a></li>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/Special%20constructors.ipynb">Sentence Padding</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/padding.py">(padding.py)</a></li>
 </ul>
+<ul>
+<li><a href="...">Pre-trained word embeddings</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/pretrained_vectors.py">(pretrained_vectors.py)</a></li>
+</ul>
+
 
