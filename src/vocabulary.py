@@ -1,3 +1,5 @@
+# author: Stratos Mansalis 
+
 import pandas as pd
 from nltk.tokenize import word_tokenize
 from collections import Counter
