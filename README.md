@@ -24,7 +24,7 @@ Natural Language Processing modules
 </ul>
 <li><b>NLP: Vocabulary Creation</b></li>
 <ul>
-<li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensor%20Creation%20Random%20Initialization.ipynb">Random tensor initialization</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
+<li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensor%20Creation%20Random%20Initialization.ipynb">Vocabulary and Index creation</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/vocabulary.py">(vocabulary.py)</a></li>
 </ul>
 <li><b>NLP: Tensor creation</b></li>
 <ul>
