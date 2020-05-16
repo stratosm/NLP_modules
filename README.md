@@ -26,9 +26,9 @@ Natural Language Processing modules
 <ul>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensor%20Creation%20Random%20Initialization.ipynb">Vocabulary and Index creation</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/vocabulary.py">(vocabulary.py)</a></li>
 </ul>
-<li><b>NLP: Tensor creation</b></li>
+<li><b>NLP: Sentences Indexing and Padding</b></li>
 <ul>
-<li><a href="https://github.com/stratosm/PyTorch/blob/master/1.%20Tensor%20Creation%20Random%20Initialization.ipynb">Sentence Indexing</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
+<li><a href="...">Sentence Indexing</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/word2idx.py">(word2idx.py)</a></li>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/Special%20constructors.ipynb">Sentence Padding</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
 </ul>
 
