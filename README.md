@@ -19,7 +19,7 @@ Natural Language Processing modules
 </ul>
 <li><b>NLP: Text Preprocessing</b></li>
 <ul>
-<li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20modules%20clean%20text%20data.ipynb">Text Cleaning</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
+<li><a href="https://github.com/stratosm/NLP_modules/blob/master/Notebooks/NLP%20modules%20clean%20text%20data.ipynb">Text Cleaning</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/src/text_preprocessing.py">(text_preprocessing.py)</a></li>
 <li><a href="https://github.com/stratosm/PyTorch/blob/master/Special%20constructors.ipynb">Most Common Words</a> | <a href="https://github.com/stratosm/NLP_modules/blob/master/class_ratio.py">(class_ratio.py)</a></li>
 </ul>
 <li><b>NLP: Vocabulary Creation</b></li>
